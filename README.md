@@ -6,13 +6,18 @@ Features
 Generate Logos: Enter a prompt (e.g., "government logo") and generate a logo by combining relevant images from Unsplash with custom text.
 
 
-Customizable Text: Add any text to the logo that you want, such as a company name, tagline, or other branding text.
+Customizable Text:
+
+Add any text to the logo that you want, such as a company name, tagline, or other branding text.
 
 
-Download and Save: Generate logos and save them to a specified directory on your computer.
+Download and Save:
+
+Generate logos and save them to a specified directory on your computer.
 
 
 Make sure you have the following installed:
+
 Python 3.x (Preferably the latest version)
 Pip (Python's package installer)
 Required Python Libraries:
@@ -47,7 +52,7 @@ How to Use
 1. Clone the Repository
 #bash
 
-git clone https://github.com/shannu-afk/logo-maker.git
+git clone https://github.com/shannu-afk/LogoMaker/
 cd logo-maker
 
 
