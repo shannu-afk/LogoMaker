@@ -25,11 +25,18 @@ You can install the required libraries by running the following commands:
 
 
 #bash
+
+
 pip install pillow requests
+
 Get Unsplash API Key
+
 Go to Unsplash Developer.
+
 Log in or create a free Unsplash account.
+
 Create a new application to get your API Access Key.
+
 Copy the Access Key and use it in the code where instructed.
 
 
@@ -39,23 +46,31 @@ How to Use
 
 1. Clone the Repository
 #bash
+
 git clone https://github.com/shannu-afk/logo-maker.git
 cd logo-maker
 
 
-2. Configure the Script
+3. Configure the Script
+
+
 In the project folder, find the script file (e.g., logo_maker.py), and follow these steps:
+
 Replace YOUR_UNSPLASH_ACCESS_KEY with the API key you obtained from Unsplash.
 
 
 
-3. Run the Script
+5. Run the Script
 
 In your terminal, run the Python script:
+
 #bash
+
 python logo_maker.py
+
 When prompted, enter:
 The search query for the type of logo you want (e.g., "government logo").
+
 
 The text you want to display on the logo (e.g., "My Company").
 The script will fetch an image based on the query from Unsplash, overlay your custom text, and save the resulting logo in the output/ directory.
@@ -65,9 +80,15 @@ Example Prompt
 
 
 #bash
+
+
 Enter your prompt (e.g., 'government logo'): government logo
+
 Enter the text for the logo (e.g., 'My Company'): My Company
+
 The generated logo will be saved in the output/ directory.
+
+
 Customization
 
 
@@ -76,13 +97,27 @@ You can easily customize the following aspects of the logo creation process:
 
 
 Font Style and Size: Modify the font style and size for the text to fit your design. The script uses a default font, but you can specify a custom one (make sure it's available on your system).
+
+
 Text Position: You can change the placement of the text on the image by adjusting the x_pos and y_pos variables.
+
+
 Image Source: Currently, the script uses the Unsplash API to fetch images, but you can switch to other image APIs like Pexels or Pixabay by modifying the image search function.
+
+
 Troubleshooting
+
 API Rate Limiting: Unsplash allows 50 requests per hour on the free tier. If you exceed this limit, wait for the rate limit to reset, or upgrade to a paid plan for more requests.
+
+
 No Images Found: If the search doesn't return any results, try using a more specific or different keyword.
+
+
 Font Issues: If the default font doesn't work on your system, you can replace it with any other font file that’s available, or use a built-in font.
+
+
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
