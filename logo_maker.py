@@ -4,7 +4,7 @@ from PIL import Image
 from io import BytesIO
 
 # Unsplash Access Key (replace with your actual key)
-ACCESS_KEY = 'xuGZAdYWxEJfFRDh3D9VID-qfYlfbGyxfbkh-w6Zoik'  # Replace this with your actual access key
+ACCESS_KEY = 'API key' # Replace this with your actual access key
 
 # Function to fetch image URL based on a prompt
 def fetch_image(prompt):
