@@ -1,10 +1,12 @@
 # LogoMaker
 A Python-based project that allows users to generate logos based on a given prompt. It uses the Unsplash API to search for relevant images (such as logos or related graphics) based on the user's query. The text you input is then overlayed on the image to create a personalized logo, which is saved to your local machine.
-#Features
+
+Features
 Generate Logos: Enter a prompt (e.g., "government logo") and generate a logo by combining relevant images from Unsplash with custom text.
 Customizable Text: Add any text to the logo that you want, such as a company name, tagline, or other branding text.
 Download and Save: Generate logos and save them to a specified directory on your computer.
 Prerequisites
+
 Make sure you have the following installed:
 Python 3.x (Preferably the latest version)
 Pip (Python's package installer)
@@ -53,13 +55,18 @@ Font Issues: If the default font doesn't work on your system, you can replace it
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Project Structure
-bash
-Copy code
+#bash
+
 logo-maker/
+
 ├── output/                   # Folder where generated logos are saved
+
 ├── logo_maker.py             # Main Python script for logo creation
+
 ├── requirements.txt          # List of Python libraries to install
+
 └── README.md                 # This file
+
 #Conclusion
 This Logo Maker project allows you to quickly generate logos using high-quality images from Unsplash, adding custom text for personalization. It's easy to set up and modify to suit your needs, and you can use the free API tier for low-traffic applications.
 Let me know if you need any further help with setup or customization!
