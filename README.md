@@ -4,7 +4,11 @@ A Python-based project that allows users to generate logos based on a given prom
 Features
 
 Generate Logos: Enter a prompt (e.g., "government logo") and generate a logo by combining relevant images from Unsplash with custom text.
+
+
 Customizable Text: Add any text to the logo that you want, such as a company name, tagline, or other branding text.
+
+
 Download and Save: Generate logos and save them to a specified directory on your computer.
 
 
